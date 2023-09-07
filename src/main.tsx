@@ -2,16 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import '@/assets/styles/generated.css';
-import './assets/styles/index.css';
 import {
-	Button,
 	CssBaseline,
 	ThemeProvider,
-	Typography,
 	createTheme,
 	responsiveFontSizes,
 } from '@mui/material';
 import App from './App';
+import './assets/styles/index.css';
 
 let theme = createTheme({
 	palette: {
@@ -22,11 +20,11 @@ let theme = createTheme({
 		},
 		primary: {
 			main: '#F8B501',
-			contrastText: '#E2E8F0',
+			contrastText: '#FFFF',
 		},
 		secondary: {
 			main: '#3A3F47',
-			contrastText: '#E2E8F0',
+			contrastText: '#FFFF',
 		},
 		text: {
 			primary: '#3A3F47',

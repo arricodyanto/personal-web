@@ -1,6 +1,5 @@
 import ContainerPage from '@/common/components/atoms/ContainerPage';
 import MenuIcon from '@mui/icons-material/Menu';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 import {
 	AppBar,
 	Box,
@@ -173,8 +172,13 @@ export default function AppNav() {
 													'&.MuiButtonBase-root:hover': {
 														bgcolor: 'transparent',
 													},
+													color: trigger ? 'white' : 'text.primary',
 												}}
-												className='px-4 rounded-full border-x border-x-primary border-solid border-opacity-0 hover:border-opacity-100 hover:text-primary transition-all duration-200 ease-in-out font-medium'>
+												className={`px-4 rounded-full border-x border-solid border-opacity-0 hover:border-opacity-100 hover:text-primary transition-all duration-200 ease-in-out font-medium ${
+													trigger
+														? 'border-x-white hover:text-white'
+														: 'border-x-primary'
+												}`}>
 												{item.label}
 											</Button>
 										);

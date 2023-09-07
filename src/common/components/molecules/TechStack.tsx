@@ -13,7 +13,7 @@ export default function TechStack() {
 		<>
 			<Typography
 				variant='body1'
-				className='font-bold text-center mb-4 uppercase'>
+				className='xs:text-xl md:text-base font-bold text-center mb-4 uppercase'>
 				Tech Stack
 			</Typography>
 			<Box className='drop-shadow-xl'>
@@ -31,7 +31,7 @@ export default function TechStack() {
 						className='focus:outline-0'>
 						<img
 							src={reactLogo}
-							className='w-full mx-auto hover:contrast-125 transition ease-in-out p-2'
+							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
 							alt='React JS'
 						/>
 					</a>
@@ -41,7 +41,7 @@ export default function TechStack() {
 						className='focus:outline-0'>
 						<img
 							src={nextLogo}
-							className='w-full mx-auto hover:contrast-125 transition ease-in-out p-2'
+							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
 							alt='React JS'
 						/>
 					</a>
@@ -51,7 +51,7 @@ export default function TechStack() {
 						className='focus:outline-0'>
 						<img
 							src={expressLogo}
-							className='w-full mx-auto hover:contrast-125 transition ease-in-out p-2'
+							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
 							alt='React JS'
 						/>
 					</a>
@@ -61,7 +61,7 @@ export default function TechStack() {
 						className='focus:outline-0'>
 						<img
 							src={laravelLogo}
-							className='w-full mx-auto hover:contrast-125 transition ease-in-out p-2'
+							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
 							alt='React JS'
 						/>
 					</a>
@@ -71,7 +71,7 @@ export default function TechStack() {
 						className='focus:outline-0'>
 						<img
 							src={materialLogo}
-							className='w-full mx-auto hover:contrast-125 transition ease-in-out p-2'
+							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
 							alt='React JS'
 						/>
 					</a>
@@ -81,7 +81,7 @@ export default function TechStack() {
 						className='focus:outline-0'>
 						<img
 							src={tailwindLogo}
-							className='w-full mx-auto hover:contrast-125 transition ease-in-out p-2'
+							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
 							alt='React JS'
 						/>
 					</a>
@@ -91,7 +91,7 @@ export default function TechStack() {
 						className='focus:outline-0'>
 						<img
 							src={viteLogo}
-							className='w-full mx-auto hover:contrast-125 transition ease-in-out p-2'
+							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
 							alt='React JS'
 						/>
 					</a>
