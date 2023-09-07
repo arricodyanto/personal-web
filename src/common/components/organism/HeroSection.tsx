@@ -1,5 +1,7 @@
-import { Box, Grid, Stack, Typography } from '@mui/material';
 import hero from '@/assets/images/hero.png';
+import TypingAnimation from '@/common/components/atoms/TypingAnimation';
+import TechStack from '@/common/components/molecules/TechStack';
+import { Box, Grid, Stack, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 export default function HeroSection() {
@@ -43,7 +45,7 @@ export default function HeroSection() {
 					item
 					md={8}
 					className='flex justify-end items-end'>
-					<Stack className=''>
+					<Stack>
 						<img
 							src={hero}
 							className='w-full mx-auto'
@@ -54,13 +56,14 @@ export default function HeroSection() {
 					item
 					md={2}
 					className='mt-[8rem]'>
-					<Typography
-						variant='subtitle1'
-						className='font-medium text-right leading-6'>
-						I code with <b>finesse</b>, creating <b>seamless</b> user
-						experiences, and I'm deeply in <b>love</b> with my{' '}
-						<b>Front End World</b>.
-					</Typography>
+					<Stack className='relative h-full'>
+						<Box className='leading-6 font-medium text-right'>
+							<TypingAnimation text="I code with <b>finesse</b>, creating <b>seamless</b> user experiences, and I'm deeply in <b>love</b> with my <b>Front End World</b>." />
+						</Box>
+						<Box className='w-full absolute bottom-[8rem]'>
+							<TechStack />
+						</Box>
+					</Stack>
 				</Grid>
 			</Grid>
 		</Box>
