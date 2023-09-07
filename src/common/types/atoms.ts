@@ -9,3 +9,12 @@ export type TButtonContainedProps = {
 export type TButtonOutlinedProps = {
 	label: string;
 };
+
+export type TTypingAnimationProps = {
+	text: string;
+};
+
+export type TSliderComponentProps = {
+	options?: any;
+	children: React.ReactNode;
+};

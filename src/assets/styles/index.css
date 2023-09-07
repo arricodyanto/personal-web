@@ -21,3 +21,13 @@
 body {
 	font-family: 'Raleway', sans-serif;
 }
+
+/* Slider Component (react-slick) */
+.slick-slide img {
+	width: 80%; /* Atur ukuran gambar agar lebih besar dari gambar lainnya */
+	transition: transform 0.3s ease; /* Animasi transisi */
+}
+
+.slick-center img {
+	transform: scale(1.4); /* Mengubah skala gambar saat berada di tengah */
+}
