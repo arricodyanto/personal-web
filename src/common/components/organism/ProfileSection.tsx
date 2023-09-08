@@ -9,7 +9,7 @@ export default function ProfileSection() {
 		<Box
 			component={'section'}
 			id='about'>
-			<Paper className='px-2 md:px-4 py-[4rem] rounded-t-[2rem] md:rounded-t-[4rem] shadow-2xl'>
+			<Paper className='px-2 md:px-4 py-[4rem] rounded-t-[2rem] md:rounded-t-[4rem] shadow-none'>
 				<ContainerPage>
 					<Grid
 						container

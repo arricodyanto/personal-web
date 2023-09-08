@@ -1,12 +1,13 @@
-import { Box, Typography } from '@mui/material';
-import SliderComponent from '@/common/components/atoms/SliderComponent';
 import reactLogo from '@/assets/images/1-react.svg';
 import nextLogo from '@/assets/images/2-next.svg';
 import expressLogo from '@/assets/images/3-express.png';
 import laravelLogo from '@/assets/images/4-laravel.svg';
-import materialLogo from '@/assets/images/5-material.svg';
-import tailwindLogo from '@/assets/images/6-tailwindcss.svg';
-import viteLogo from '@/assets/images/7-vite.svg';
+import flutterLogo from '@/assets/images/5-flutter.svg';
+import materialLogo from '@/assets/images/6-material.svg';
+import tailwindLogo from '@/assets/images/7-tailwindcss.svg';
+import viteLogo from '@/assets/images/8-vite.svg';
+import SliderComponent from '@/common/components/atoms/SliderComponent';
+import { Box, Typography } from '@mui/material';
 
 export default function TechStack() {
 	return (
@@ -42,7 +43,7 @@ export default function TechStack() {
 						<img
 							src={nextLogo}
 							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
-							alt='React JS'
+							alt='Next JS'
 						/>
 					</a>
 					<a
@@ -52,7 +53,7 @@ export default function TechStack() {
 						<img
 							src={expressLogo}
 							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
-							alt='React JS'
+							alt='Express JS'
 						/>
 					</a>
 					<a
@@ -62,7 +63,17 @@ export default function TechStack() {
 						<img
 							src={laravelLogo}
 							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
-							alt='React JS'
+							alt='Laravel'
+						/>
+					</a>
+					<a
+						href='https://flutter.dev/'
+						target='_blank'
+						className='focus:outline-0'>
+						<img
+							src={flutterLogo}
+							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
+							alt='Flutter'
 						/>
 					</a>
 					<a
@@ -72,7 +83,7 @@ export default function TechStack() {
 						<img
 							src={materialLogo}
 							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
-							alt='React JS'
+							alt='Material UI'
 						/>
 					</a>
 					<a
@@ -82,7 +93,7 @@ export default function TechStack() {
 						<img
 							src={tailwindLogo}
 							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
-							alt='React JS'
+							alt='Tailwind CSS'
 						/>
 					</a>
 					<a
@@ -92,7 +103,7 @@ export default function TechStack() {
 						<img
 							src={viteLogo}
 							className='w-full mx-auto hover:contrast-125 transition ease-in-out xs:py-4 xs:px-3 md:p-2'
-							alt='React JS'
+							alt='Vite'
 						/>
 					</a>
 				</SliderComponent>

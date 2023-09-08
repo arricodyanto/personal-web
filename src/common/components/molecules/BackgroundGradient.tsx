@@ -1,26 +1,24 @@
 import { Box, Stack } from '@mui/material';
-// import zIndex from '@mui/material/styles/zIndex'
 import gradientBackground from '@/assets/images/gradient-circle.svg';
+import { TBackgroundGradientProps } from '@/common/types/molecules';
 
-export default function BackgroundGradient() {
+export default function BackgroundGradient(props: TBackgroundGradientProps) {
+	const { children } = props;
 	return (
-		<Stack
-			direction='row-reverse'
-			sx={{ pointerEvents: 'none' }}
-			className='absolute right-0'>
-			<Box
+		<>
+			<Stack
+				className='fixed inset-0 bg-no-repeat'
+				style={{ backgroundImage: `url(${gradientBackground})` }}
 				sx={{
-					maxWidth: { xs: 250, md: 300, lg: 400, xl: 500 },
-					filter: 'blur(70px)',
+					pointerEvents: 'none',
+					filter: 'blur(60px)',
 					opacity: 0.4,
-					marginRight: { xs: '40px', md: '100px', lg: '200px', xl: '350px' },
+					marginLeft: { xs: '40px', md: '400px', lg: '700px', xl: '850px' },
 					marginTop: { xs: '150px', md: '130px', lg: '150px' },
-				}}>
-				<img
-					src={gradientBackground}
-					alt=''
-				/>
-			</Box>
-		</Stack>
+					maxWidth: { xs: 250, md: 300, lg: 400, xl: 500 },
+				}}
+			/>
+			<Box className='relative z-10 w-screen'>{children}</Box>
+		</>
 	);
 }

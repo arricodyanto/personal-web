@@ -3,19 +3,19 @@ import BackgroundGradient from '@/common/components/molecules/BackgroundGradient
 import AppNav from '@/common/components/organism/AppNav';
 import HeroSection from '@/common/components/organism/HeroSection';
 import ProfileSection from '@/common/components/organism/ProfileSection';
-import { Box } from '@mui/material';
+import WorkExperience from '@/common/components/organism/WorkExperience';
 
 export default function Home() {
 	return (
 		<>
 			<AppNav />
-			<Box className='relative'>
-				<BackgroundGradient />
-			</Box>
-			<ContainerPage>
-				<HeroSection />
-			</ContainerPage>
-			<ProfileSection />
+			<BackgroundGradient>
+				<ContainerPage>
+					<HeroSection />
+				</ContainerPage>
+				<ProfileSection />
+				<WorkExperience />
+			</BackgroundGradient>
 		</>
 	);
 }
