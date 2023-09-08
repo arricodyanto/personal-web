@@ -13,14 +13,14 @@ export default function HeroSection() {
 			<Stack className='absolute xs:top-[5rem] md:top-[8rem]'>
 				<Typography
 					variant='subtitle1'
-					className='font-bold xs:text-[1.5rem] md:text-[2rem] lg:text-[4rem] xs:leading-7 md:leading-[4rem] text-text-primary xs:w-[180px] md:w-[400px]'>
+					className='font-bold xs:text-[1.5rem] md:text-[2rem] lg:text-[4rem] xs:leading-7 md:leading-[2rem] lg:leading-[4rem] text-text-primary xs:w-[180px] md:w-[240px] lg:w-[400px]'>
 					Hello There, I'm Arrico
 				</Typography>
 			</Stack>
 			<Grid
 				container
 				spacing={1}
-				className='xs:h-[calc(100vh-8vh)] md:h-[calc(100vh-50vh)] lg:h-screen'>
+				className='xs:h-[calc(100vh-8vh)] md:h-[calc(100vh-55vh)] lg:h-screen'>
 				<Grid
 					item
 					xs={12}
