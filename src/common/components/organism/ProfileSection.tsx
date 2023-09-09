@@ -29,7 +29,7 @@ export default function ProfileSection() {
 							<Stack>
 								<Typography
 									variant='subtitle1'
-									className='font-bold text-4xl text-text-secondary'>
+									className='font-bold text-4xl text-text-primary'>
 									The Scoop on Me
 								</Typography>
 								<Stack

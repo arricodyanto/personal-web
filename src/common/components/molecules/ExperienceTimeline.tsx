@@ -24,7 +24,7 @@ export default function ExperienceTimeline() {
 						target='blank'>
 						<Typography
 							variant='subtitle1'
-							className='font-bold text-lg hover:brightness-125 hover:underline hover:underline-offset-2'>
+							className='font-bold text-lg text-secondary hover:brightness-125 hover:underline hover:underline-offset-2'>
 							Universitas Sebelas Maret Public Relation, Surakarta
 						</Typography>
 					</Link>
@@ -39,12 +39,12 @@ export default function ExperienceTimeline() {
 						color='primary'
 						className=' outline-[2px] outline-dashed outline-gray-400 outline-offset-[6px] shadow-none'
 					/>
-					<TimelineConnector />
+					<TimelineConnector className='border border-dashed border-gray-400 bg-transparent' />
 				</TimelineSeparator>
 				<TimelineContent>
 					<Typography
 						variant='body1'
-						className='font-bold text-text-secondary xs:text-xl md:text-lg'>
+						className='font-bold text-text-primary xs:text-xl md:text-lg'>
 						Web Administrator
 					</Typography>
 					<Typography
@@ -63,7 +63,7 @@ export default function ExperienceTimeline() {
 							target='blank'>
 							<Typography
 								variant='subtitle1'
-								className='font-bold text-lg hover:brightness-125 hover:underline hover:underline-offset-2 text-text-secondary leading-6 mt-2'>
+								className='font-bold text-lg hover:brightness-125 hover:underline hover:underline-offset-2 text-text-primary leading-6 mt-2'>
 								Universitas Sebelas Maret Public Relation, Surakarta
 							</Typography>
 						</Link>
@@ -84,7 +84,7 @@ export default function ExperienceTimeline() {
 						target='blank'>
 						<Typography
 							variant='subtitle1'
-							className='font-bold text-lg hover:brightness-125 hover:underline hover:underline-offset-2'>
+							className='font-bold text-lg text-secondary hover:brightness-125 hover:underline hover:underline-offset-2'>
 							Refactory, Yogyakarta
 						</Typography>
 					</Link>
@@ -103,7 +103,7 @@ export default function ExperienceTimeline() {
 				<TimelineContent>
 					<Typography
 						variant='body1'
-						className='font-bold text-text-secondary xs:text-xl md:text-lg'>
+						className='font-bold text-text-primary xs:text-xl md:text-lg'>
 						Back End Developer
 					</Typography>
 					<Typography
@@ -121,7 +121,7 @@ export default function ExperienceTimeline() {
 							target='blank'>
 							<Typography
 								variant='subtitle1'
-								className='font-bold text-lg hover:brightness-125 hover:underline hover:underline-offset-2 text-text-secondary leading-6 mt-2'>
+								className='font-bold text-lg hover:brightness-125 hover:underline hover:underline-offset-2 text-secondary leading-6 mt-2'>
 								Refactory, Yogyakarta
 							</Typography>
 						</Link>

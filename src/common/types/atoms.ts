@@ -18,3 +18,12 @@ export type TSliderComponentProps = {
 	options?: any;
 	children: React.ReactNode;
 };
+
+export type TProjectCardProps = {
+	image?: string;
+	title?: string;
+	role?: string;
+	duration?: string;
+	description?: string;
+	link?: string;
+};
