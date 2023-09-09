@@ -11,7 +11,7 @@ export default function WorkExperience() {
 				className='px-2 md:px-4 py-[4rem]'>
 				<Typography
 					variant='subtitle1'
-					className='font-bold text-4xl text-text-secondary text-center'>
+					className='font-bold text-4xl text-text-primary text-center'>
 					My Work Experience
 				</Typography>
 				<ExperienceTimeline />
