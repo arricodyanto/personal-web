@@ -51,7 +51,7 @@ export default function ProjectSlider() {
 
 const projectItem = [
 	{
-		image: '/src/assets/images/sinata.jpg',
+		image: '/sinata.jpg',
 		title: 'Sistem Informasi Manajemen Pelayanan dan Berita (SINATA)',
 		role: 'Full Stack',
 		duration: 'Feb 23 - Aug 23',
@@ -59,7 +59,7 @@ const projectItem = [
 		link: 'https://sinata.vercel.app',
 	},
 	{
-		image: '/src/assets/images/tenant-map.jpg',
+		image: '/tenant-map.jpg',
 		title: 'Tenant Map Solo Square',
 		role: 'Front End',
 		duration: 'Dec 22 - Dec 22',
@@ -67,7 +67,7 @@ const projectItem = [
 		link: 'https://tenantmap.vercel.app',
 	},
 	{
-		image: '/src/assets/images/ppid-uns.jpg',
+		image: '/ppid-uns.jpg',
 		title: 'Migration/update of PPID UNS Website UI Themes',
 		role: 'Front End',
 		duration: 'Jul 22 - Aug 22',
@@ -75,7 +75,7 @@ const projectItem = [
 		link: 'https://ppid.uns.ac.id',
 	},
 	{
-		image: '/src/assets/images/climbee.jpg',
+		image: '/climbee.jpg',
 		title: 'Auth API for Climbee',
 		role: 'Back End',
 		duration: 'Sep 22 - Dec 22',
@@ -83,7 +83,7 @@ const projectItem = [
 		link: 'https://github.com/arricodyanto/climbee-api',
 	},
 	{
-		image: '/src/assets/images/profile-emp.jpg',
+		image: '/profile-emp.jpg',
 		title: 'Eleven March Project Company Profile',
 		role: 'Front End',
 		duration: 'May 21 - May 21',

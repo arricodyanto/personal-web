@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import '@/assets/styles/generated.css';
 import {
 	CssBaseline,
 	ThemeProvider,
