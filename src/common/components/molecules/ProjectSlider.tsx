@@ -6,7 +6,6 @@ export default function ProjectSlider() {
 	return (
 		<Stack
 			spacing={2}
-			// direction={{ xs: 'column', md: 'row' }}
 			className='mt-8 xs:w-[100%] md:w-full md:bottom-[4rem] lg:bottom-[8rem] mx-auto'>
 			<SliderComponent
 				options={{
@@ -40,6 +39,7 @@ export default function ProjectSlider() {
 							role={item.role}
 							duration={item.duration}
 							description={item.desc}
+							tech={item.tech}
 							link={item.link}
 						/>
 					);
@@ -51,27 +51,39 @@ export default function ProjectSlider() {
 
 const projectItem = [
 	{
-		image: '/sinata.jpg',
+		image: '/sinata-cover.png',
 		title: 'Sistem Informasi Manajemen Pelayanan dan Berita (SINATA)',
 		role: 'Full Stack',
 		duration: 'Feb 23 - Aug 23',
 		desc: 'A management information system for conducting service management owned by Sebelas Maret University Public Relations. With this website, users can apply for services to public relations digitally.',
+		tech: 'Next JS, Typescript, Tailwind CSS, Material UI, Express JS, Javascript, MySQL.',
 		link: 'https://sinata.vercel.app',
 	},
 	{
-		image: '/tenant-map.jpg',
+		image: '/bytrade-cover.png',
+		title: 'Bytrade Crypto Exchange Platform',
+		role: 'Front End',
+		duration: 'Apr 23 - Apr 23',
+		desc: 'A private project, a cryptocurrency exchange platform. With this system, visitors can see the profile of the platform and monitor cryptocurrencies prices in real time.',
+		tech: 'Next JS, Typescript, Tailwind CSS, Material UI, Coinmarketcap API.',
+		link: 'https://bytrade.vercel.app',
+	},
+	{
+		image: '/tenant-cover.png',
 		title: 'Tenant Map Solo Square',
 		role: 'Front End',
 		duration: 'Dec 22 - Dec 22',
 		desc: 'A semi 3D interactive map widget for tenants in a shopping center in Surakarta. With this system, visitors can see the list and location of tenants in the mall.',
+		tech: 'React JS, Typescript.',
 		link: 'https://tenantmap.vercel.app',
 	},
 	{
-		image: '/ppid-uns.jpg',
+		image: '/ppid-cover.png',
 		title: 'Migration/update of PPID UNS Website UI Themes',
 		role: 'Front End',
 		duration: 'Jul 22 - Aug 22',
 		desc: 'A semi 3D interactive map widget for tenants in a shopping center in Surakarta. With this system, visitors can see the list and location of tenants in the mall.',
+		tech: 'WPAstra, Elementor, Wordpress.',
 		link: 'https://ppid.uns.ac.id',
 	},
 	{
@@ -80,14 +92,16 @@ const projectItem = [
 		role: 'Back End',
 		duration: 'Sep 22 - Dec 22',
 		desc: 'A simple Auth API using JWT Token. Developed for Climbee, so that this API can be consumed by both front end and mobile developers.',
+		tech: 'Express JS, Node JS, JWT Token.',
 		link: 'https://github.com/arricodyanto/climbee-api',
 	},
 	{
-		image: '/profile-emp.jpg',
+		image: '/emp-cover.png',
 		title: 'Eleven March Project Company Profile',
 		role: 'Front End',
 		duration: 'May 21 - May 21',
 		desc: ' A single page company profile from the Event Organizer company, Eleven March Project. Developed using HTML, some styling changes from Bootstrap, and additional Javascript for the WhatsApp chat feature.',
+		tech: 'HTML, CSS, Bootstrap.',
 		link: 'https://arricodyanto.github.io/elevenmarchproject',
 	},
 ];

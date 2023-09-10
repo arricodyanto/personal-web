@@ -25,5 +25,6 @@ export type TProjectCardProps = {
 	role?: string;
 	duration?: string;
 	description?: string;
+	tech?: string;
 	link?: string;
 };
