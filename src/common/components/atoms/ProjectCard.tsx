@@ -53,11 +53,11 @@ export default function ProjectCard(props: TProjectCardProps) {
 					</Stack>
 				}></CardHeader>
 			<CardMedia
-				className='mt-8 h-full w-[calc(100%-20%)] z-0 absolute contrast-[0.3] bg-cover rounded-t-2xl mx-auto left-0 right-0'
+				className='mt-8 h-full w-[calc(100%-20%)] z-0 absolute brightness-[0.4] bg-cover rounded-t-2xl mx-auto left-0 right-0'
 				image={`${image}`}
 			/>
 			<CardMedia
-				className='mt-12 h-full w-[calc(100%-10%)] z-0 absolute contrast-[0.5] bg-cover rounded-t-2xl mx-auto left-0 right-0'
+				className='mt-12 h-full w-[calc(100%-10%)] z-0 absolute brightness-[0.55] bg-cover rounded-t-2xl mx-auto left-0 right-0'
 				image={`${image}`}
 			/>
 			<CardMedia
