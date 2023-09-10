@@ -10,13 +10,13 @@ export default function HeroSection() {
 			component={'section'}
 			id='hero'
 			className='relative'>
-			<Stack className='md:absolute xs:mt-[5rem] md:top-[8rem]'>
+			<Stack className='md:absolute xs:mt-[5rem] md:mt-0 md:top-[8rem]'>
 				<Typography
 					variant='subtitle1'
 					className='font-bold xs:text-[2.5rem] md:text-[2rem] lg:text-[4rem] xs:leading-10 md:leading-[2rem] lg:leading-[4rem] text-text-primary xs:w-3/4 md:w-[240px] lg:w-[400px]'>
 					Hello There, I'm Arrico
 				</Typography>
-				<Box className='mt-4 h-[30px]'>
+				<Box className='mt-4 h-[30px] xs:block md:hidden'>
 					<TypingAnimation text="I code with <b>finesse</b>, creating <b>seamless</b> user experiences, and I'm deeply in <b>love</b> with my <b>Front End World</b>." />
 				</Box>
 			</Stack>
