@@ -6,7 +6,7 @@ export default function Portfolio() {
 	return (
 		<Box
 			component={'section'}
-			id='projects'>
+			id='project'>
 			<Paper className='px-2 md:px-4 py-[4rem] shadow-none'>
 				<ContainerPage>
 					<Typography

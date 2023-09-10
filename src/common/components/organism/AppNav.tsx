@@ -166,21 +166,23 @@ export default function AppNav() {
 									alignItems='center'>
 									{MenuItems.map((item) => {
 										return (
-											<Button
-												color='secondary'
-												sx={{
-													'&.MuiButtonBase-root:hover': {
-														bgcolor: 'transparent',
-													},
-													color: trigger ? 'white' : 'text.primary',
-												}}
-												className={`px-4 rounded-full border-x border-solid border-opacity-0 hover:border-opacity-100 hover:text-primary transition-all duration-200 ease-in-out font-medium ${
-													trigger
-														? 'border-x-white hover:text-white'
-														: 'border-x-primary'
-												}`}>
-												{item.label}
-											</Button>
+											<a href={`${item.link}`}>
+												<Button
+													color='secondary'
+													sx={{
+														'&.MuiButtonBase-root:hover': {
+															bgcolor: 'transparent',
+														},
+														color: trigger ? 'white' : 'text.primary',
+													}}
+													className={`px-4 rounded-full border-x border-solid border-opacity-0 hover:border-opacity-100 hover:text-primary transition-all duration-200 ease-in-out font-medium ${
+														trigger
+															? 'border-x-white hover:text-white'
+															: 'border-x-primary'
+													}`}>
+													{item.label}
+												</Button>
+											</a>
 										);
 									})}
 								</Stack>
@@ -200,15 +202,15 @@ export const MenuItems = [
 	},
 	{
 		label: 'About',
-		link: '#features',
+		link: '/#about',
 	},
 	{
-		label: 'Services',
-		link: '#top-coins',
+		label: 'Experience',
+		link: '/#experience',
 	},
 	{
-		label: 'Resume',
-		link: '/#academy',
+		label: 'Portfolio',
+		link: '/#project',
 	},
 	{
 		label: 'Project',
