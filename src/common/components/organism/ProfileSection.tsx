@@ -2,6 +2,7 @@ import avatar from '@/assets/images/avatar.png';
 import ContainerPage from '@/common/components/atoms/ContainerPage';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Box, Button, Grid, Paper, Stack, Typography } from '@mui/material';
+import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 
 export default function ProfileSection() {
@@ -70,13 +71,17 @@ export default function ProfileSection() {
 									direction={'row'}
 									spacing={2}
 									marginTop={4}>
-									<Button
-										size='large'
-										variant='contained'
-										endIcon={<DownloadIcon className='-ml-1 mr-2' />}
-										className='normal-case rounded-full'>
-										Download My Resume
-									</Button>
+									<Link
+										to='https://s.id/Resume-ArricoHandyanto'
+										target='blank'>
+										<Button
+											size='large'
+											variant='contained'
+											endIcon={<DownloadIcon className='-ml-1 mr-2' />}
+											className='normal-case rounded-full'>
+											Download My Resume
+										</Button>
+									</Link>
 								</Stack>
 							</Stack>
 						</Grid>

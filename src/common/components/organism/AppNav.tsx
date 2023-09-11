@@ -153,7 +153,7 @@ export default function AppNav() {
 											open={drawer[anchor]}
 											onClose={toggleDrawer(anchor, false)}
 											PaperProps={{ sx: { backgroundColor: '#FFFF' } }}
-											className='opacity-[0.98]'>
+											className='opacity-[0.99]'>
 											<Box
 												className='pt-4 backdrop-blur-2xl h-screen relative'
 												sx={{ width: 240 }}
@@ -161,26 +161,32 @@ export default function AppNav() {
 												onClick={toggleDrawer(anchor, false)}
 												onKeyDown={toggleDrawer(anchor, false)}>
 												<Stack className='grid justify-center'>
-													<img
-														src={logoBlack}
-														width={80}
-														alt='Site Logo'
-														className='hover:opacity-60 transition'
-													/>
+													<a href={`/`}>
+														<img
+															src={logoBlack}
+															width={80}
+															alt='Site Logo'
+															className='hover:opacity-60 transition'
+														/>
+													</a>
 												</Stack>
 												<Divider className='pt-5 border-[#FFFF]' />
 												<List>
 													{MenuItems.map((item, index) => {
 														return (
-															<ListItem
+															<a
 																key={index}
-																disablePadding>
-																<ListItemButton className='w-[240px] justify-center py-4 hover:text-primary transition ease-in-out duration'>
-																	<Typography variant='body1'>
-																		{item.label}
-																	</Typography>
-																</ListItemButton>
-															</ListItem>
+																href={`${item.link}`}>
+																<ListItem
+																	key={index}
+																	disablePadding>
+																	<ListItemButton className='w-[240px] justify-center py-4 hover:text-primary transition ease-in-out duration'>
+																		<Typography variant='body1'>
+																			{item.label}
+																		</Typography>
+																	</ListItemButton>
+																</ListItem>
+															</a>
 														);
 													})}
 												</List>
@@ -215,11 +221,7 @@ export const MenuItems = [
 		link: '/#project',
 	},
 	{
-		label: 'Project',
-		link: '/#partners',
-	},
-	{
 		label: 'Contact',
-		link: '/#partners',
+		link: '/#contact',
 	},
 ];
