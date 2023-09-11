@@ -2,6 +2,7 @@ import ContainerPage from '@/common/components/atoms/ContainerPage';
 import BackgroundGradient from '@/common/components/molecules/BackgroundGradient';
 import AppNav from '@/common/components/organism/AppNav';
 import Contact from '@/common/components/organism/Contact';
+import Footer from '@/common/components/organism/Footer';
 import HeroSection from '@/common/components/organism/HeroSection';
 import Portfolio from '@/common/components/organism/Portfolio';
 import ProfileSection from '@/common/components/organism/ProfileSection';
@@ -19,7 +20,7 @@ export default function Home() {
 				<WorkExperience />
 				<Portfolio />
 				<Contact />
-				{/* Footer */}
+				<Footer />
 			</BackgroundGradient>
 		</>
 	);
