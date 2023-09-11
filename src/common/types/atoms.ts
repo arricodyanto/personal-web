@@ -28,3 +28,14 @@ export type TProjectCardProps = {
 	tech?: string;
 	link?: string;
 };
+
+export type TTextfieldLabelProps = {
+	label?: string;
+};
+
+export type TAlertDialogProps = {
+	handleOpen: boolean;
+	handleClose: () => void;
+	title?: string;
+	content: string;
+};

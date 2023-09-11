@@ -7,7 +7,7 @@ export default function Portfolio() {
 		<Box
 			component={'section'}
 			id='project'>
-			<Paper className='px-2 md:px-4 py-[4rem] shadow-none'>
+			<Paper className='px-2 md:px-4 py-[4rem] shadow-none text-center'>
 				<ContainerPage>
 					<Typography
 						variant='subtitle1'

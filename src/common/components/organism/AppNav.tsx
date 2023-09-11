@@ -109,9 +109,11 @@ export default function AppNav() {
 									direction='row'
 									sx={{ display: { xs: 'none', md: 'flex' } }}
 									alignItems='center'>
-									{MenuItems.map((item) => {
+									{MenuItems.map((item, index) => {
 										return (
-											<a href={`${item.link}`}>
+											<a
+												key={index}
+												href={`${item.link}`}>
 												<Button
 													color='secondary'
 													sx={{
@@ -168,17 +170,17 @@ export default function AppNav() {
 												</Stack>
 												<Divider className='pt-5 border-[#FFFF]' />
 												<List>
-													{MenuItems.map((item) => {
+													{MenuItems.map((item, index) => {
 														return (
-															<>
-																<ListItem disablePadding>
-																	<ListItemButton className='w-[240px] justify-center py-4 hover:text-primary transition ease-in-out duration'>
-																		<Typography variant='body1'>
-																			{item.label}
-																		</Typography>
-																	</ListItemButton>
-																</ListItem>
-															</>
+															<ListItem
+																key={index}
+																disablePadding>
+																<ListItemButton className='w-[240px] justify-center py-4 hover:text-primary transition ease-in-out duration'>
+																	<Typography variant='body1'>
+																		{item.label}
+																	</Typography>
+																</ListItemButton>
+															</ListItem>
 														);
 													})}
 												</List>
