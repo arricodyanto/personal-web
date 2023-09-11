@@ -1,6 +1,8 @@
+import ContainerPage from '@/common/components/atoms/ContainerPage';
+import ContactForm from '@/common/components/molecules/ContactForm';
+import ContactItem from '@/common/components/molecules/ContactItem';
+import SocialItem from '@/common/components/molecules/SocialItem';
 import { Box, Grid, Typography } from '@mui/material';
-import ContactForm from '../molecules/ContactForm';
-import ContainerPage from '../atoms/ContainerPage';
 
 export default function Contact() {
 	return (
@@ -23,12 +25,21 @@ export default function Contact() {
 						md={6}>
 						<Typography
 							variant='subtitle2'
-							className='font-bold text-2xl mb-2'>
+							className='font-bold text-2xl'>
 							Reach Out
 						</Typography>
-						<Typography variant='body1'>
+						<Typography
+							variant='body1'
+							className='mt-2 mb-6'>
 							Discover the best ways to get in touch with me.
 						</Typography>
+						<ContactItem />
+						<Typography
+							variant='subtitle2'
+							className='font-bold text-2xl mb-4'>
+							Reach Me Through Social Media
+						</Typography>
+						<SocialItem />
 					</Grid>
 					<Grid
 						item
@@ -37,7 +48,7 @@ export default function Contact() {
 						<Typography
 							variant='subtitle2'
 							className='font-bold text-2xl mb-2'>
-							Drop a Line
+							Drop a Line via Email
 						</Typography>
 						<ContactForm />
 					</Grid>

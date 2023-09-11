@@ -105,7 +105,7 @@ export default function ContactForm() {
 					type='submit'
 					variant='contained'
 					endIcon={<SendIcon className='text-md' />}
-					className='normal-case rounded-full xs:w-1/3 md:w-1/5 mt-2'>
+					className='normal-case rounded-full xs:w-1/3 lg:w-1/5 mt-2'>
 					Send
 				</Button>
 			</Box>
