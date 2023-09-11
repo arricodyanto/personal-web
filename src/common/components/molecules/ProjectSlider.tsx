@@ -17,7 +17,7 @@ export default function ProjectSlider() {
 					slidesToScroll: 1,
 					responsive: [
 						{
-							breakpoint: 1300,
+							breakpoint: 1200,
 							settings: {
 								slidesToShow: 2,
 							},
@@ -82,7 +82,7 @@ const projectItem = [
 		title: 'Migration/update of PPID UNS Website UI Themes',
 		role: 'Front End',
 		duration: 'Jul 22 - Aug 22',
-		desc: 'A semi 3D interactive map widget for tenants in a shopping center in Surakarta. With this system, visitors can see the list and location of tenants in the mall.',
+		desc: 'Make updates in terms of theme and appearance of the UNS PPID website, so that the website has a better UI and user experience than before. This website uses the Wordpress CMS.',
 		tech: 'WPAstra, Elementor, Wordpress.',
 		link: 'https://ppid.uns.ac.id',
 	},
