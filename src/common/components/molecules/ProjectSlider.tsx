@@ -69,6 +69,15 @@ const projectItem = [
 		link: 'https://bytrade.vercel.app',
 	},
 	{
+		image: '/bytrade-cover.png',
+		title: 'UI Design Bytrade Crypto Exchange Platform',
+		role: 'UI/UX',
+		duration: 'Apr 23 - Apr 23',
+		desc: 'A private project, a cryptocurrency exchange platform. With this system, visitors can see the profile of the platform and monitor cryptocurrencies prices in real time.',
+		tech: 'Figma, Adobe Photoshop',
+		link: 'https://www.figma.com/proto/hfkxD18DBISLMHjhY4VeEf/bytrade-ui-design?page-id=0%3A1&node-id=3-12&starting-point-node-id=3%3A12&mode=design&t=fJJMB8jXqlDYnX1r-1',
+	},
+	{
 		image: '/tenant-cover.png',
 		title: 'Tenant Map Solo Square',
 		role: 'Front End',
